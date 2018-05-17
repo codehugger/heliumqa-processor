@@ -1,0 +1,2 @@
+
+  { "groups": [{ "key": "dummy_group","label": "Dummy Group","results": [{ "key": "dummy_file","label": "Dummy File","type" : "file","file_path" : "examples/sample.png" }] }] }
