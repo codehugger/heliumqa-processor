@@ -51,3 +51,6 @@ build-iPhoneSimulator/
 
 # program artifacts
 /requests
+
+# ignore the actual config file
+config.json

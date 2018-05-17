@@ -6,10 +6,17 @@ use warnings;
 
 use File::Copy;
 
-my ($source) = @ARGV;
+my $source = $ARGV[0];
+my $destination = $ARGV[1];
+
+print "$ARGV[0]\n";
+print "$ARGV[1]\n";
 
 if (not defined $source) {
   die "Need source\n";
+}
+elsif (not defined $destination) {
+  die "Need destination\n";  
 }
 else {
   print "Processing '$source'\n";
