@@ -1,5 +1,6 @@
 {
-	"host": "http://localhost:3000",
+  "host": "http://localhost:3000",
   "email": "user@example.com",
-  "password": "password"
+  "password": "password",
+  "command": "perl dummy.pl $SOURCE $DESTINATION"
 }
