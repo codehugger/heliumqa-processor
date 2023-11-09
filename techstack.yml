@@ -1,0 +1,121 @@
+repo_name: codehugger/heliumqa-processor
+report_id: abfef9fd410f95779306431fb9947514
+repo_type: Public
+timestamp: '2023-11-09T12:38:55+00:00'
+requested_by: codehugger
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-05-17 16:04:34.000000000 Z
+- name: byebug
+  description: Byebug is a Ruby debugger
+  package_url: https://rubygems.org/byebug
+  version: 10.0.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-05-17 16:04:34.000000000 Z
+- name: http
+  description: An easy-to-use client library for making requests from Ruby
+  package_url: https://rubygems.org/http
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18938/default_9835367d7a13be70dd38d3b7dfa4b8514b31a43d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-05-17 16:04:34.000000000 Z
+- name: mimemagic
+  description: Fast mime detection by extension or content in pure ruby
+  package_url: https://rubygems.org/mimemagic
+  version: 0.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19182/default_992f30e8abd98f8427f66b25a8cb98662661c0ea.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-05-17 16:04:34.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 5.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-05-17 16:04:34.000000000 Z
+- name: rr
+  description: RR is a test double framework that features a rich selection of double
+    techniques and a terse syntax
+  package_url: https://rubygems.org/rr
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18915/default_353d3fd998e68372ebd6d80dbb4c0632f387d091.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bjarki Gudlaugsson
+  last_updated_on: 2018-05-17 16:04:34.000000000 Z
